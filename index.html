@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Math Quiz</title>
+
+
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet">
+
+
+</head>
+<body onload="question()">
+
+    <div class="totalScore"></div>
+    <div class="box">
+        <div class="result"></div>
+        <div class="one"></div>
+        <div class="operator">
+            +
+        </div>
+        <div class="two"></div>
+
+        <div>
+            <input type="number" id="answer" placeholder="Your answer">
+
+            <button onclick="result()">Answer</button>
+            <button onclick="reset()">Reset</button>
+        </div>
+    </div>
+
+    <ul id="ul"></ul>
+
+
+    <!-- Scripts -->
+    <script src="main.js" charset="utf-8"></script>
+</body>
+</html>
